@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.background-img {
+    background-image: url('images/home/mp.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 10px;
+    opacity: 75%;
+}
+
+.h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 72px;
+  color: rgb(3, 3, 3);
+  margin-bottom: 20px;
+}
+
+.text {
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn {
+    border: 4px solid;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: aliceblue;
+}
+
+.col-4 {
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    border: 0px;
+    border-radius: 0;
+}
+.card-img-top{
+    height: 250px;
+}
+.card-img-top:hover{
+    transition: transform 0.2s;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.h3 {
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-m {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 15px 15px 25px rgba(61, 60, 60, 0.5);
+}
+
+.col-6 {
+    text-align: center;
+}
+
+.h2 {
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.display {
+    margin-right: 100px;
+    text-align: left;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.heading {
+    margin: 50px 20px;
+    font-weight: bold;
+}
+
+.line1 {
+    display: inline-block;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ccc, transparent);
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.h4 {
+    text-align: center;
+    margin-top: -60px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(190, 186, 186);
+}
+.h5{
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 500px) {
+    .background-img {
+        background-image: url(images/home/mps.png);
+        width: 100%;
+        height: 400px;
+    }
+    .h1 {
+      font-weight: 100;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .text {
+        width: 300px;
+        margin-top: 20px;
+        font-size: 15px;
+        top: 250px;
+        left: 50%;
+    }
+    .btn {
+        border: 2px solid;
+        font-size: 18px;
+        font-weight: 800;
+        width: 180px;
+    }
+    .col-4 {
+        margin-top: 30px;
+    }
+    .card-img-top{
+        height: 200px;
+        width: 300px;
+        margin-left: -30px;
+    }
+    .h3 {
+        font-size: 20px;
+      font-weight: 200;
+      font-style: normal;
+    }
+    .row{
+        display: block;
+    }
+    .container-m {
+        margin-top: 30px;
+        margin-left: -90px;
+        margin-right: 10px;
+    }
+    .container-m .col-6 {
+        width: 100%;
+    }
+  .img-fluid{
+    width: 350px;
+    height: 300px;
+  }
+  .h2{
+    margin-left: 100px;
+  }
+  .display{
+    margin-left: 100px;
+  }
+}
+@media (min-width: 500px) and (max-width: 650px) {
+    .btn {
+        border: 3px solid;
+        font-size: 20px;
+        font-weight: 850;
+        width: 200px;
+    }
+    .col-4 {
+        margin-top: 30px;
+    }
+    .card{
+        align-items: center;
+        padding-right: 30px;
+        justify-content: center;
+    }
+    .card-img-top{
+        height: 300px;
+        width: 300px;
+        margin-left: -30px;
+    }
+    .h3 {
+      justify-content: center;
+        left: 200px;
+        font-size: 40px;
+      font-weight: 300;
+      font-style: normal;
+    }
+    .row{
+        display: block;
+        margin-left: 100px;
+    }
+    .container-m {
+        margin-top: 30px;
+        margin-left: -70px;
+        margin-right: 20px;
+    }
+    .container-m .col-md-6 {
+        margin-left: -50px;
+        width: 100%;
+        display: block;
+    }
+  .img-fluid{
+    margin-left: 30px;
+    width: 450px;
+    height: 350px;
+  }
+  .h2{
+    margin-left: 100px;
+  }
+  .display{
+    margin-left: 100px;
+  }
+
+}
+@media (min-width: 650px) and (max-width: 800px) {
+    .btn {
+        border: 3px solid;
+        font-size: 20px;
+        font-weight: 850;
+        width: 200px;
+    }
+    .col-4 {
+        margin-top: 30px;
+    }
+    .card{
+        align-items: center;
+        padding-right: 30px;
+        justify-content: center;
+    }
+    .card-img-top{
+        height: 300px;
+        width: 300px;
+        margin-left: -30px;
+    }
+    .h3 {
+      justify-content: center;
+        left: 200px;
+        font-size: 40px;
+      font-weight: 300;
+      font-style: normal;
+    }
+    .row{
+        display: block;
+        margin-left: 150px;
+    }
+    .container-m {
+        margin-top: 30px;
+        margin-left: -70px;
+        margin-right: 20px;
+    }
+    .container-m .col-md-6 {
+        margin-left: -100px;
+        width: 100%;
+        display: block;
+    }
+  .img-fluid{
+    margin-left: 30px;
+    width: 450px;
+    height: 350px;
+  }
+  .h2{
+    margin-left: 100px;
+  }
+  .display{
+    margin-left: 100px;
+    width: 90%;
+  }
+
+}
+@media (min-width: 800px) and (max-width: 1300px){
+    .h2{
+        margin-left: 100px;
+    }
+    .display{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 90%;
+    }
+    .card{
+        width: 200px;
+        margin-left: 20px;
+    }
+}
