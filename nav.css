@@ -1,7 +1,10 @@
+nav{
+    background-color: black;
+}
 .navbar{
     height: 80px;
     transition: all 0.3s ease;
-    line-height: 80px,
+    line-height: 80px,;
 }
 .navbar.scrolled {
     height: 20px;

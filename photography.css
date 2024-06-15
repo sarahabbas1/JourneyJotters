@@ -25,7 +25,6 @@ body {
     opacity: 75%;
 }
 
-
 .text {
     margin-top: 40px;
     text-align: center;
@@ -37,9 +36,11 @@ body {
     top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10px;
+
 }
 .container-xxxxlg{
     margin-top: 50px;
