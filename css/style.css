@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: Lora;
+	color: #fff;
+}
+
+/* Nav */
+
+.navbar {
+	height: 80px;
+	transition: all 0.3s ease;
+	/* line-height: 80px; */
+}
+
+.navbar.scrolled {
+	height: 20px;
+	line-height: 20px,;
+}
+
+.navbar-brand {
+	font-size: 24px;
+}
+
+.nav-link {
+	font-size: 20px;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+.text{
+	font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Home */
+
+.background-img {
+	background-image: url('../images/home/mp.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	margin-top: 80px;
+	opacity: 70%;
+}
+
+.h1 {
+	justify-content: center;
+	text-align: center;
+	font-family: "Pacifico", cursive;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 72px;
+	color: rgb(3, 3, 3);
+	margin-bottom: 20px;
+}
+
+.text {
+	margin-top: 40px;
+	text-align: center;
+	align-items: center;
+	font-size: 20px;
+	color: black;
+	justify-content: center;
+	position: absolute;
+	top: 350px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+ /* .btn {
+	border: 4px solid;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: aliceblue;
+} */
+/*
+.col-4 {
+	margin-top: 50px;
+} */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.card {
+	border: 0px;
+	border-radius: 0;
+}
+
+.card-img-top {
+	height: 250px;
+}
+
+.card-img-top:hover {
+	transition: transform 0.2s;
+}
+
+.card-img-top:hover {
+	transform: scale(1.05);
+}
+
+.h3 {
+	font-family: "Jaro", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.heading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.heading {
+	margin: 50px 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.line1 {
+	display: inline-block;
+	height: 1px;
+	background: linear-gradient(to right, transparent, #ccc, transparent);
+	flex-grow: 1;
+	margin: 0 10px;
+}
+
+.h4 {
+	text-align: center;
+	margin-top: -60px;
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(190, 186, 186);
+}
+
+.h5 {
+	font-family: "Kreon", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/* About */
+
+.carousel {
+    margin-top: 80px;
+    opacity: 75%;
+	position: relative;
+	
+}
+
+.carousel-caption {
+	text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.line2 {
+    display: inline-block;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ccc, transparent);
+    flex-grow: 1;
+    margin: 0 10px;
+    width: 30%;
+}
+
+/* Photography */
+
+.photo-background-img {
+    background-image: url('../images/photography/mp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 10px;
+    opacity: 75%;
+}
+
+.photo-background-img .text {
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 72px;
+    color: #fff;
+    justify-content: center; 
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.img-fluid{
+	height: 250px;
+	opacity: 0.6;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.img-fluid:hover{
+	opacity: 1;
+}
+/* Contact */
+
+.contact-background-img {
+    background-image: url('../images/contact/mp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 80px;
+    opacity: 75%;
+}
+
+.contact-background-img .text {
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 72px;
+    color: #fff;
+    justify-content: center;
+    font-family: "Roboto Slab", serif; 
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Footer */
+
+footer {
+	margin-top: 20px;
+	background-color: rgb(22, 22, 22);
+	margin-bottom: -20px;
+}
+
+.icons {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.icon {
+	margin-top: 20px;
+	margin-left: 35px;
+	font-size: 20px;
+	color: white;
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, rgba(184, 180, 180, 1), rgb(255, 255, 255), rgba(184, 180, 180, 1));
+	margin: 20px 0;
+}
+
+.h6 {
+	color: rgb(233, 153, 107);
+	text-align: center;
+}
+
+.text1 {
+	text-align: center;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.fa-brands:hover,.fa-regular:hover{
+    color: orangered;
+}
